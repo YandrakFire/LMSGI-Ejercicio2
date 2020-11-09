@@ -1,0 +1,81 @@
+html {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-image: url("./img/fondo-03.jpg");
+    background-repeat: repeat;
+}
+
+a:link{
+    color: grey;
+}
+
+a:visited{
+    color: grey;
+}
+
+a:hover{
+    color: red;
+    font-size: larger
+}
+
+p {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 14px;
+    line-height: 18px;
+    margin-bottom: 20px;
+    }
+
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    color: teal;
+}
+:required {
+    border: 1px solid red;
+    }
+
+:optional {
+    border: 1px solid greenyellow;
+}
+
+input, option{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: x-small;
+}
+table{
+    border-style: dashed;
+    border-color: violet;
+}
+th{
+    background-color: crimson;
+    color: white;
+}
+
+ul {
+    margin: 0.75em 0;
+    padding: 0 1em;
+    list-style: none;
+}
+
+td{
+    background-color: white;
+    
+}
+
+li:before {
+    content: "";
+    border-color: transparent #111;
+    border-style: solid;
+    border-width: 0.35em 0 0.35em 0.45em;
+    display: block;
+    height: 0;
+    width: 0;
+    left: -1em;
+    top: 0.9em;
+    position: relative;
+}
+
+
+
+body {
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
